@@ -1,0 +1,123 @@
+.mid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  color: #fff;
+  font-weight: 500;
+  margin: 20px;
+}
+
+.mid .aboutMe:hover {
+  transform: translateY(-4px);
+}
+
+.mid .aboutMe {
+  padding: 20px;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: #111928bf;
+  border: 1px solid #ffffff20;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.mid .title {
+  color: #00a6ff;
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.mid .titles {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.mid .skill {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: #111928bf;
+  border: 1px solid #ffffff20;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+.mid .skill:hover {
+  transform: translateY(-4px);
+}
+
+.skill .skills {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.skill .skills i {
+  font-size: 30px;
+  opacity: 0.7;
+}
+.skills span {
+  display: flex;
+  align-items: center;
+}
+
+.mid .education {
+  padding: 20px;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: #111928bf;
+  border: 1px solid #ffffff20;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+.mid .education:hover {
+  transform: translateY(-4px);
+}
+
+.mid .education a {
+  color: #00a6ff;
+}
+
+.mid .project {
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: #111928bf;
+  border: 1px solid #ffffff20;
+  border-radius: 20px;
+  padding: 20px;
+  height: 350px;
+  transition: all 0.3s ease;
+}
+
+.mid .project:hover {
+  transform: translateY(-4px);
+}
+
+.mid .project a {
+  color: #00a6ff;
+}
+
+.mid .project a i {
+  font-size: 20px;
+  margin-left: 110px;
+}
+
+.mid .project a:hover {
+  opacity: 0.8;
+}
+
+@media (width< 768px) {
+  .mid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (width< 1025) {
+  .mid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

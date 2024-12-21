@@ -1,0 +1,46 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  color: #fff;
+}
+
+.contact .title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.contact a {
+  color: #00ffff;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: #111928bf;
+  border: 1px solid #ffffff20;
+}
+
+footer .links i {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  margin-right: 10px;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: #052e7abf;
+  border: 1px solid #ffffff20;
+  color: #fff;
+}

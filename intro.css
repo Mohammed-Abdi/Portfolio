@@ -1,0 +1,62 @@
+.intro {
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+
+  color: #fff;
+}
+
+.intro .introduction {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.introduction .greeting {
+  font-weight: 500;
+  color: #0083ca;
+}
+
+.introduction .name {
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.introduction .description {
+  font-weight: 500;
+  color: #0083ca;
+}
+
+.intro .introImage {
+  padding: 20px;
+  margin-right: 100px;
+}
+
+.intro .introImage img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+@media (width< 768px) {
+  .intro {
+    flex-direction: column;
+  }
+  .intro .introduction {
+    margin-top: none;
+  }
+  .introduction .name {
+    font-size: 50px;
+  }
+  .intro .introImage img {
+    margin-left: 20px;
+  }
+}
+
+@media (width< 1025px) {
+  .intro .introImage {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
