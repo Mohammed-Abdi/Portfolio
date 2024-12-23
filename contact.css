@@ -39,4 +39,10 @@ footer .links i {
   height: 45px;
   width: 45px;
   color: #fff;
+  transition: all 0.3s ease-in-out;
 }
+
+footer .links i:hover {
+  transform: translateY(-3px);
+}
+
