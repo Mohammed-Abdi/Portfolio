@@ -12,27 +12,5 @@
 }
 
 body {
-  background: radial-gradient(
-      circle,
-      rgba(0, 73, 220, 0.9) 5%,
-      rgba(7, 25, 82, 0.9) 30%,
-      rgba(7, 25, 82, 0.6) 50%,
-      rgba(7, 25, 82, 0.1) 80%
-    ),
-    radial-gradient(
-      circle at 30% 70%,
-      rgba(50, 100, 255, 0.7) 0%,
-      rgba(7, 25, 82, 0) 70%
-    ),
-    radial-gradient(
-      circle at 70% 30%,
-      rgba(74, 50, 255, 0.7) 0%,
-      rgba(7, 25, 82, 0) 70%
-    ),
-    radial-gradient(
-      circle at 10% 50%,
-      rgba(255, 255, 255, 0.4) 0%,
-      rgba(7, 25, 82, 0) 50%
-    );
-  background-color: #071952;
+    background: radial-gradient(circle, #003366 0%, #000000 100%);
 }
