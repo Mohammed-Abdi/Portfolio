@@ -36,8 +36,6 @@ footer .links i {
   font-size: 25px;
   margin-right: 10px;
   border-radius: 50%;
-  height: 45px;
-  width: 45px;
   color: #fff;
   transition: all 0.3s ease-in-out;
 }
@@ -45,4 +43,3 @@ footer .links i {
 footer .links i:hover {
   transform: translateY(-3px);
 }
-
