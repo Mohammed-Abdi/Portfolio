@@ -37,9 +37,9 @@ footer .links i {
   margin-right: 10px;
   border-radius: 50%;
   color: #fff;
-  transition: all 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
 footer .links i:hover {
-  transform: translateY(-3px);
+  opacity: 0.5;
 }
