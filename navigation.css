@@ -33,7 +33,7 @@
     border-bottom: 2px solid transparent;
     transition: border 0.3s ease;
 }
-.navigation-bar div:hover, .navigation-bar div.active{
+.navigation-bar div:hover {
     border-bottom: 2px solid #fff;
 }
 
