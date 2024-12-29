@@ -1,0 +1,146 @@
+.hero{
+    margin: 20px;
+}
+
+.hero div{
+    color: #fff;
+}
+
+.hero .container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+div .about, .skills, .education{
+    padding: 20px;
+    backdrop-filter: blur(9px) saturate(200%);
+    -webkit-backdrop-filter: blur(9px) saturate(200%);
+    background-color: rgba(17, 25, 40, 0.48);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.hero .title{
+    color: #0ef;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hero .skill{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.skill div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+
+.skills div p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.skills img {
+    height: 50px;
+    width: 50px;
+}
+
+.education a{
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #0ef;
+    background: transparent;
+    color: #0ef;
+    padding: 7px 54px;
+    border-radius: 40px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.education a:hover {
+    background: #0ef;
+    color: #000;
+}
+
+.hero .projects{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-block: 20px;
+    gap: 20px;
+}
+
+.projects .project{
+    padding: 20px;
+    backdrop-filter: blur(9px) saturate(200%);
+    -webkit-backdrop-filter: blur(9px) saturate(200%);
+    background-color: rgba(17, 25, 40, 0.48);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.project-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project-logo img{
+    height: 50px;
+    width: 50px;
+}
+
+.project img{
+    height: 70px;
+    width: 70px;
+}
+
+.project-logo p{
+    font-size: 30px;
+    font-weight: 600;
+    color: #0ef;
+    text-shadow: 0 0 20px #0ef;
+}
+
+.project a{
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #0ef;
+    background: transparent;
+    color: #0ef;
+    padding: 7px 54px;
+    border-radius: 40px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.project a:hover {
+    background: #0ef;
+    color: #000;
+}
+
+@media (min-width:500px) and (max-width:820px) {
+    .hero .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .hero .projects{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 821px) {
+    .hero .container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .hero .projects{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+

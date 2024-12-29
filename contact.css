@@ -1,0 +1,23 @@
+.contact{
+    padding: 20px;
+    margin-inline: 20px;
+    margin-block: 30px 30px;
+}
+
+.contact .title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0ef;
+    margin-bottom: 10px;
+}
+
+.contact p{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.contact a{
+    color: #0ef;
+    text-decoration: none;
+    padding-bottom: 100px;
+}

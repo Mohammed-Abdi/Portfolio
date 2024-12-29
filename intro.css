@@ -1,0 +1,81 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-block: 100px 100px;
+    margin-inline: 20px;
+}
+
+.intro .introduction {
+    padding: 20px;
+}
+
+.introduction .greeting, .description{
+    color: #0ef;
+}
+
+.introduction .name{
+    margin: 0;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.intro img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid #0ef;
+    box-shadow: 0 0 20px #0ef;
+}
+
+.introduction .cv{
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.introduction .button{
+    display: inline-block;
+    background: #fff;
+    border-radius: 30px;
+    padding: 7px 15px;
+    margin-right: 10px;
+}
+
+.introduction a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+    transition: opacity 0.3s ease;
+}
+
+.introduction a:hover {
+    opacity: 0.7;
+}
+
+.introduction i{
+    color: #fff;
+    font-size: 16px;
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+
+@media (min-width: 768px) {
+    .intro {
+        display: flex;
+        flex-direction: row;
+    }
+    .intro img{
+        height: 200px;
+    width: 200px;
+        order: 1;
+    }
+    .introduction .name{
+        font-size: 62px;
+    }
+}
