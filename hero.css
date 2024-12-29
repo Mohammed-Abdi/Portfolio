@@ -4,6 +4,7 @@
 
 .hero div{
     color: #fff;
+    transition: all 0.3s ease;
 }
 
 .hero .container{
@@ -68,6 +69,10 @@ div .about, .skills, .education{
 .education a:hover {
     background: #0ef;
     color: #000;
+}
+
+div .about:hover, .skills:hover, .education:hover, .project:hover{
+    transform: translateY(-4px);
 }
 
 .hero .projects{
