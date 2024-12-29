@@ -39,6 +39,7 @@
 
 .introduction .button{
     display: inline-block;
+    font-size: 12px;
     background: #fff;
     border-radius: 30px;
     padding: 7px 15px;
@@ -77,5 +78,8 @@
     }
     .introduction .name{
         font-size: 62px;
+    }
+    .introduction .button{
+        font-size: 16px;
     }
 }
