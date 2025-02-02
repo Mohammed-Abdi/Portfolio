@@ -1,0 +1,40 @@
+@import url(header.css);
+@import url(hero.css);
+@import url(about&education.css);
+@import url(skills.css);
+@import url(projects.css);
+@import url(feedback.css);
+@import url(footer.css);
+@import url(navigation\ bar.css);
+@import url(fonts.css);
+
+:root {
+  --background: #e3e3e3;
+  --gradient: linear-gradient(90deg, #2997ff, #0008ff);
+  --hoverGradient: linear-gradient(90deg, #2997ff, #0008ff, #2997ff);
+  --black: #000000;
+  --newBlack: #1d1d1f;
+  --white: #ffffff;
+  --red: #a30000;
+  --blue: #0084ff;
+  --deepBlue: #0008ff;
+  --shadow: #858585;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--black);
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+button {
+  font-family: inherit;
+}

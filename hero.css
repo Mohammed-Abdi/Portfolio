@@ -1,0 +1,113 @@
+#hero {
+  padding-block: 50px 30px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  color: var(--black);
+  margin: 0 20px;
+}
+
+.hero .detail {
+  line-height: 70px;
+  margin-bottom: 30px;
+}
+
+.hero .greeting {
+  font-size: 25px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+.hero .name {
+  font-size: 65px;
+  font-weight: 600;
+}
+
+.hero .title {
+  font-size: 25px;
+  font-weight: 500;
+  color: var(--blue);
+}
+
+.hero img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 6px solid var(--blue);
+}
+
+.hero .main a {
+  background: var(--gradient);
+  color: var(--white);
+  padding: 16px 40px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.hero .main a:hover {
+  background: var(--hoverGradient);
+}
+
+@media (max-width: 541px) {
+  .hero {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+
+  .hero .detail {
+    line-height: 45px;
+    margin-bottom: 15px;
+  }
+
+  .hero .main {
+    padding-inline: 12px;
+    text-align: center;
+  }
+
+  .hero .greeting {
+    font-size: 16px;
+  }
+
+  .hero .name {
+    font-size: 40px;
+  }
+
+  .hero .title {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 541px) and (max-width: 1023px) {
+  .hero {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .hero .detail {
+    line-height: 48px;
+    margin-bottom: 15px;
+  }
+
+  .hero .main {
+    padding-inline: 12px;
+  }
+
+  .hero .greeting {
+    font-size: 16px;
+  }
+
+  .hero .name {
+    font-size: 55px;
+  }
+
+  .hero .title {
+    font-size: 16px;
+  }
+}

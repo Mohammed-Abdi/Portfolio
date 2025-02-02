@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohammed Abdi</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#"
+          ><span class="main">Mamme</span> <span class="sub">•</span></a
+        >
+      </div>
+      <div class="right">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#about">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#feedback">Feedback</a></li>
+        </ul>
+        <button class="button" onclick="window.location.href='#contact'">
+          Contact
+        </button>
+      </div>
+    </header>
+    <nav>
+      <a id="home-btn" href="#"
+        ><img src="images/Home.svg" alt="Home" /><span>Home</span></a
+      >
+      <a id="about-btn" href="#about"
+        ><img src="images/About.svg" alt="About" /><span>About</span></a
+      >
+      <a id="education-btn" href="#education"
+        ><img src="images/Education.svg" alt="Education" /><span
+          >Education</span
+        ></a
+      >
+      <a id="skill-btn" href="#skills"
+        ><img src="images/Skill.svg" alt="Skills" /><span>Skills</span></a
+      >
+      <a id="project-btn" href="#projects"
+        ><img src="images/Project.svg" alt="Projects" /><span>Projects</span></a
+      >
+    </nav>
+    <main>
+      <section id="hero">
+        <div class="hero">
+          <div class="main">
+            <div class="detail">
+              <p class="greeting">Hi, I am</p>
+              <p class="name">Mohammed Abdi</p>
+              <p class="title">A Front-End Developer</p>
+            </div>
+            <a href="#about">Get Started</a>
+          </div>
+          <div class="sub">
+            <img src="images/Mohammed.webp" alt="profile picture" />
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="holder">
+          <div class="container">
+            <div class="about">
+              <p class="title">About</p>
+              <div class="body">
+                Front-End Developer &amp; UX/UI Designer who is passionate in
+                making user-friendly websites and apps. Skilled in
+                <strong>HTML</strong>, <strong>CSS</strong>,
+                <strong>JavaScript/ES6+</strong>, <strong>C++</strong> and tools
+                like <strong>Figma</strong> and
+                <strong>Adobe Illustrator</strong>. I enjoy working with
+                creative teams to build products that solve real problems and
+                are simple for people to use. Let&rsquo;s work together to make
+                great things!
+              </div>
+            </div>
+            <div class="education" id="education">
+              <p class="title">Education</p>
+              <div class="body">
+                <p>
+                  I am currently attending
+                  <strong>Dire Dawa University</strong>, pursuing a
+                  <strong>Bachelor's degree in Software Engineering</strong>.
+                  During my studies, I have developed a strong foundation in
+                  <strong>software development principles</strong> and
+                  participated in various
+                  <strong>projects and workshops</strong> that have contributed
+                  to my growth and expertise in the field of
+                  <strong>technology</strong>.
+                </p>
+              </div>
+              <button
+                onclick="window.open('https://www.ddu.edu.et/', '_blank')"
+              >
+                Visit
+              </button>
+            </div>
+            <div class="ddu">
+              <p class="title">Dire Dawa University</p>
+              <div class="body">
+                <img
+                  src="images/ddu logo.webp"
+                  alt="Dire Dawa University logo"
+                />
+              </div>
+              <button
+                onclick="window.open('https://www.ddu.edu.et/', '_blank')"
+              >
+                Visit
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <div class="skills">
+          <fieldset>
+            <legend>SKILLS</legend>
+            <div class="grid">
+              <div>
+                <img src="images/html.svg" alt="html" />
+                <hr />
+                <p>Html</p>
+              </div>
+              <div>
+                <img src="images/css.svg" alt="css" />
+                <hr />
+                <p>CSS</p>
+              </div>
+              <div>
+                <img src="images/js.svg" alt="JavaScript" />
+                <hr />
+                <p>JavaScript</p>
+              </div>
+              <div>
+                <img src="images/c++.svg" alt="c plus plus" />
+                <hr />
+                <p>C++</p>
+              </div>
+              <div>
+                <img src="images/git.svg" alt="git" />
+                <hr />
+                <p>Git</p>
+              </div>
+              <div>
+                <img src="images/github.svg" alt="github" />
+                <hr />
+                <p>Github</p>
+              </div>
+              <div>
+                <img src="images/vscode.svg" alt="vscode" />
+                <hr />
+                <p>VsCode</p>
+              </div>
+              <div>
+                <img src="images/figma.svg" alt="figma" />
+                <hr />
+                <p>Figma</p>
+              </div>
+              <div>
+                <img src="images/illustrator.svg" alt="illustrator" />
+                <hr />
+                <p>Illustrator</p>
+              </div>
+              <div>
+                <img src="images/photoshop.svg" alt="photoshop" />
+                <hr />
+                <p>Photoshop</p>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </section>
+      <section id="projects">
+        <div class="projects">
+          <hr id="b-project" />
+          <span class="projectHeading">PROJECTS</span>
+          <div class="grid2">
+            <div class="div">
+              <img src="images/recipe.svg" alt="recipe" />
+              <p class="title">Recipe</p>
+              <div class="body">
+                A recipe website where users can browse, search, and filter
+                various recipes. I worked on both the front-end and user
+                interface, ensuring a seamless and engaging user experience. The
+                website features interactive elements such as a search bar,
+                filtering options, and recipe detail pages
+              </div>
+              <button
+                onclick="window.open('https://mohammed-abdi.github.io/Recipe/', '_blank')"
+              >
+                Visit
+              </button>
+            </div>
+            <div class="div">
+              <img src="images/portfolio.svg" alt="portfolio" />
+              <p class="title">Portfolio</p>
+              <div class="body">
+                A personal portfolio website showcasing my work as a Front-End
+                Developer and UX/UI Designer. I designed and developed the
+                website to present my skills, projects, and contact information.
+                The website is fully responsive, with smooth animations and a
+                clean, modern design
+              </div>
+              <button
+                onclick="window.open('https://mohammed-abdi.github.io/Portfolio/', '_blank')"
+              >
+                Visit
+              </button>
+            </div>
+            <div class="div">
+              <img src="images/e-commerce.svg" alt="e-commerce" />
+              <p class="title">E-commerce</p>
+              <div class="body">
+                An e-commerce website designed for a seamless shopping
+                experience. It features a modern, responsive design with smooth
+                animations, secure transactions, and intuitive navigation. The
+                platform includes product browsing, a shopping cart, and order
+                management for efficiency.
+              </div>
+              <button
+                id="progressButton"
+                onclick="window.location.href='#projects'"
+              >
+                In progress
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr id="b-feedback" />
+      <section id="feedback">
+        <div class="feedback">
+          <div class="feedbackForm">
+            <p class="title">Feedback</p>
+            <div class="tnx">Thank You For The Feedback!</div>
+            <form
+              action="https://formspree.io/f/mrbekprp"
+              method="POST"
+              class="form"
+            >
+              <label for="name"
+                >Name
+                <input
+                  type="text"
+                  id="name"
+                  class="name"
+                  placeholder="Enter your name (optional)"
+                />
+              </label>
+              <label for="email"
+                >Email
+                <input
+                  type="email"
+                  id="email"
+                  class="email"
+                  placeholder="Enter your email (optional)"
+                />
+              </label>
+              <label for="comment"
+                >Comment
+                <textarea
+                  name="comment"
+                  id="comment"
+                  placeholder="Enter your feedback"
+                  required
+                ></textarea>
+              </label>
+              <button type="submit" class="submit-btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="contact">
+      <p class="profession">Front-End Developer</p>
+      <p class="name">MOHAMMED ABDI</p>
+      <div class="socialMedia">
+        <a
+          target="_blank"
+          href="https://web.facebook.com/mohammed.abdi.71619533"
+          style="background: #1877f2"
+          ><i class="bx bxl-facebook"></i
+        ></a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/mohammed-abdi-641917202/"
+          style="background: #0077b5"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a
+          target="_blank"
+          href="https://t.me/yuuichi_sano"
+          style="background: #0088cc"
+          ><i class="bx bxl-telegram"></i
+        ></a>
+      </div>
+      <p class="copyright">Copyright &copy; 2025 | Mohammed Abdi</p>
+    </footer>
+  </body>
+</html>

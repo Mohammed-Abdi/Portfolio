@@ -1,0 +1,78 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--background);
+  padding: 20px 60px;
+  width: 100%;
+}
+
+header .logo {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+header .logo .sub {
+  color: var(--blue);
+}
+
+header .right {
+  display: flex;
+  align-items: center;
+}
+
+header .right ul {
+  list-style: none;
+}
+
+header .right ul li {
+  display: inline-block;
+  margin-right: 25px;
+  transition: all 0.3s ease;
+}
+
+header .right ul li a {
+  font-weight: 500;
+}
+
+header .right ul li:hover {
+  transform: translateY(-2px);
+}
+
+header .right .button {
+  background: var(--background);
+  color: var(--black);
+  font-weight: 500;
+  text-decoration: none;
+  padding: 8px 20px;
+  border-radius: 50px;
+  border: 2px solid var(--black);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+header .right .button:hover {
+  background: var(--black);
+  color: var(--white);
+  border: 2px solid var(--black);
+}
+
+@media (max-width: 541px) {
+  header {
+    padding: 20px;
+  }
+  header .right ul {
+    display: none;
+  }
+}
+
+@media (min-width: 541px) and (max-width: 769px) {
+  header .right ul li {
+    margin-right: 15px;
+  }
+}
